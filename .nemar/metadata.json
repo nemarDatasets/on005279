@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on005279",
-  "source": "openneuro",
-  "source_id": "ds005279",
+  "pipeline_stage": "enriched",
   "title": "Picture-Word Interference Dataset",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Hsi T. Wei": {},
     "Farhan B. Faisal": {},
@@ -11,30 +11,122 @@
     "Claire Shao": {},
     "Jed A. Meltzer": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005279.v1.0.3",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005279",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005279",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005279",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.9.0",
-  "recording_modality": [
-    "anat",
-    "beh",
-    "meg"
-  ],
-  "datatypes": [
-    "anat",
-    "beh",
-    "meg"
   ],
   "funding_references": [
     {
-      "funder_name": "This research was supported by NSERC Discovery Grant RGPIN-2019-06515"
+      "funder_name": "NSERC",
+      "award_number": "RGPIN-2019-06515"
     }
-  ]
+  ],
+  "modalities": [
+    "anat",
+    "beh",
+    "meg"
+  ],
+  "resource_type_specific": "Structural MRI Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".acq",
+    ".bak",
+    ".cfg",
+    ".cls",
+    ".de",
+    ".dsc",
+    ".hc",
+    ".hist",
+    ".infods",
+    ".json",
+    ".m",
+    ".md",
+    ".meg4",
+    ".mrk",
+    ".newds",
+    ".nii",
+    ".res4",
+    ".sh",
+    ".tsv",
+    ".txt"
+  ],
+  "description": "This dataset comprises magnetoencephalography (MEG), structural magnetic resonance imaging (sMRI), and behavioral data from 30 healthy young adults performing a picture-word interference task. Participants identified object images and judged whether the object name ended in a target sound while hearing phonologically, semantically, or unrelated distractor words. The study investigates neural mechanisms of lexical access and interference resolution during language production.",
+  "methods_description": "MEG data were acquired using a CTF system during three runs of the picture-word interference task, each containing 120 trials. Participants performed covert object naming with phonological judgment while hearing distractor words. Behavioral responses (reaction time and accuracy) were recorded via button press. Structural MRI was acquired for each participant to enable MEG source localization. MEG data were epoched relative to picture onset and response onset for event-related analyses.",
+  "keywords": [
+    {
+      "term": "MEG"
+    },
+    {
+      "term": "picture-word interference"
+    },
+    {
+      "term": "lexical access"
+    },
+    {
+      "term": "language production"
+    },
+    {
+      "term": "event-related fields"
+    },
+    {
+      "term": "source localization"
+    },
+    {
+      "term": "structural MRI"
+    },
+    {
+      "term": "phonological"
+    },
+    {
+      "term": "semantic"
+    },
+    {
+      "term": "covert naming"
+    },
+    {
+      "term": "object naming"
+    },
+    {
+      "term": "phonological judgment"
+    },
+    {
+      "term": "distractor words"
+    },
+    {
+      "term": "CTF MEG system"
+    },
+    {
+      "term": "healthy controls"
+    },
+    {
+      "term": "young adults"
+    },
+    {
+      "term": "Toronto"
+    },
+    {
+      "term": "Baycrest"
+    }
+  ],
+  "source_hash": "438497e5a0620f1af796d9ffad6d298bf362ec4d65d49fe2fcc8c3742471b82a"
 }
