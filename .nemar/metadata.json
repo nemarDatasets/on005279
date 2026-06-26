@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Picture-Word Interference Dataset",
+  "description": "This dataset comprises magnetoencephalography (MEG), structural magnetic resonance imaging (sMRI), and behavioral data from 30 healthy young adults performing a picture-word interference task. Participants identified object images and judged whether the object name ended in a target sound while hearing distractor words that were phonologically related, semantically related, or unrelated to the pictures. The dataset includes three task runs per participant with 120 trials each, with equal representation of phonologically related, semantically related, and unrelated picture-word conditions. Reaction time, accuracy, and MEG recordings epoched to picture and response onsets are included for event-related analysis.",
+  "methods_description": "MEG data were acquired using a CTF system at the Rotman Research Institute, Baycrest Hospital, Toronto. Participants performed a picture-word interference task across 3 runs of 120 trials each, with equal representation of phonologically related, semantically related, and unrelated picture-word conditions. Behavioral responses (reaction time and accuracy) were recorded via button press. Structural MRI was acquired for each participant to enable MEG source localization. MEG data were epoched relative to picture onset and response onset for event-related analyses.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,12 +13,47 @@
     "Claire Shao": {},
     "Jed A. Meltzer": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005279.v1.0.3",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "Magnetoencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
     },
+    {
+      "term": "MEG"
+    },
+    {
+      "term": "Structural MRI"
+    },
+    {
+      "term": "picture-word interference"
+    },
+    {
+      "term": "semantic processing"
+    },
+    {
+      "term": "phonological processing"
+    },
+    {
+      "term": "event-related fields"
+    },
+    {
+      "term": "source localization"
+    },
+    {
+      "term": "behavioral data"
+    },
+    {
+      "term": "reaction time"
+    },
+    {
+      "term": "language processing"
+    },
+    {
+      "term": "psycholinguistics"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005279",
       "identifier_type": "URL",
@@ -31,6 +68,11 @@
       "identifier": "10.18112/openneuro.ds005279",
       "identifier_type": "DOI",
       "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005279.v1.0.3",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -39,14 +81,14 @@
       "award_number": "RGPIN-2019-06515"
     }
   ],
+  "resource_type_specific": "Structural MRI Dataset",
   "modalities": [
     "anat",
     "beh",
     "meg"
   ],
-  "resource_type_specific": "Structural MRI Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "60.5 GB (1249 files)"
   ],
   "formats": [
     ".acq",
@@ -68,65 +110,8 @@
     ".res4",
     ".sh",
     ".tsv",
-    ".txt"
+    ".txt",
+    ".yml"
   ],
-  "description": "This dataset comprises magnetoencephalography (MEG), structural magnetic resonance imaging (sMRI), and behavioral data from 30 healthy young adults performing a picture-word interference task. Participants identified object images and judged whether the object name ended in a target sound while hearing phonologically, semantically, or unrelated distractor words. The study investigates neural mechanisms of lexical access and interference resolution during language production.",
-  "methods_description": "MEG data were acquired using a CTF system during three runs of the picture-word interference task, each containing 120 trials. Participants performed covert object naming with phonological judgment while hearing distractor words. Behavioral responses (reaction time and accuracy) were recorded via button press. Structural MRI was acquired for each participant to enable MEG source localization. MEG data were epoched relative to picture onset and response onset for event-related analyses.",
-  "keywords": [
-    {
-      "term": "MEG"
-    },
-    {
-      "term": "picture-word interference"
-    },
-    {
-      "term": "lexical access"
-    },
-    {
-      "term": "language production"
-    },
-    {
-      "term": "event-related fields"
-    },
-    {
-      "term": "source localization"
-    },
-    {
-      "term": "structural MRI"
-    },
-    {
-      "term": "phonological"
-    },
-    {
-      "term": "semantic"
-    },
-    {
-      "term": "covert naming"
-    },
-    {
-      "term": "object naming"
-    },
-    {
-      "term": "phonological judgment"
-    },
-    {
-      "term": "distractor words"
-    },
-    {
-      "term": "CTF MEG system"
-    },
-    {
-      "term": "healthy controls"
-    },
-    {
-      "term": "young adults"
-    },
-    {
-      "term": "Toronto"
-    },
-    {
-      "term": "Baycrest"
-    }
-  ],
-  "source_hash": "438497e5a0620f1af796d9ffad6d298bf362ec4d65d49fe2fcc8c3742471b82a"
+  "source_hash": "05612e3b6c1de5e0369dc10a47dfd1646487a7b40c77fc5f1ca804531120e7a3"
 }
