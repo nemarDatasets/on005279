@@ -1,0 +1,40 @@
+{
+  "version": "2.0",
+  "dataset_id": "on005279",
+  "source": "openneuro",
+  "source_id": "ds005279",
+  "title": "Picture-Word Interference Dataset",
+  "authors": {
+    "Hsi T. Wei": {},
+    "Farhan B. Faisal": {},
+    "Tamara Beck": {},
+    "Claire Shao": {},
+    "Jed A. Meltzer": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds005279.v1.0.3",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.9.0",
+  "recording_modality": [
+    "anat",
+    "beh",
+    "meg"
+  ],
+  "datatypes": [
+    "anat",
+    "beh",
+    "meg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "This research was supported by NSERC Discovery Grant RGPIN-2019-06515"
+    }
+  ]
+}
