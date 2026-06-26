@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Picture-Word Interference Dataset",
-  "description": "This dataset comprises magnetoencephalography (MEG), structural magnetic resonance imaging (sMRI), and behavioral data from 30 healthy young adults performing a picture-word interference task. Participants identified object images and judged whether the object name ended in a target sound while hearing distractor words that were phonologically related, semantically related, or unrelated to the pictures. The dataset includes three task runs per participant with 120 trials each, with equal representation of phonologically related, semantically related, and unrelated picture-word conditions. Reaction time, accuracy, and MEG recordings epoched to picture and response onsets are included for event-related analysis.",
+  "description": "This dataset comprises magnetoencephalography (MEG), structural magnetic resonance imaging (sMRI), and behavioral data from 30 healthy young adults performing a picture-word interference task. Participants identified object images and judged whether the object name ended in a target sound while hearing distractor words that were phonologically related, semantically related, or unrelated to the pictures. The dataset includes three task runs per participant with 120 trials each (40 phonologically related, 40 semantically related, and 40 unrelated trials per run), along with reaction time, accuracy, and MEG recordings epoched to picture and response onsets for event-related analysis.",
   "methods_description": "MEG data were acquired using a CTF system at the Rotman Research Institute, Baycrest Hospital, Toronto. Participants performed a picture-word interference task across 3 runs of 120 trials each, with equal representation of phonologically related, semantically related, and unrelated picture-word conditions. Behavioral responses (reaction time and accuracy) were recorded via button press. Structural MRI was acquired for each participant to enable MEG source localization. MEG data were epoched relative to picture onset and response onset for event-related analyses.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -23,9 +23,6 @@
       "term": "MEG"
     },
     {
-      "term": "Structural MRI"
-    },
-    {
       "term": "picture-word interference"
     },
     {
@@ -39,18 +36,6 @@
     },
     {
       "term": "source localization"
-    },
-    {
-      "term": "behavioral data"
-    },
-    {
-      "term": "reaction time"
-    },
-    {
-      "term": "language processing"
-    },
-    {
-      "term": "psycholinguistics"
     }
   ],
   "related_identifiers": [
