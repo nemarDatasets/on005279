@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on005279-blue)](https://doi.org/10.82901/nemar.on005279)
+
 This study was conducted at the Rotman Research Institute at Baycrest Hospital in Toronto, Canada.
 
 This dataset contains 30 healthy young adults' MEG (CTF), sMRI, and behavioural data on a picture-word interference (PWI) task. Subjects were shown images of objects one by one and were instructed to retrieve the name of the pictures covertly and judge whether the name ends in a target sound given at the beginning of each task block, by pressing the yes or no buttons with their right hand. Whenever they see an image, they will often also hear a distractor word played through their earphone. The picture and word could be phonologically related, semantically related, or unrelated.
