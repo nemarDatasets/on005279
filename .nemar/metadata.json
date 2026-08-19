@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Picture-Word Interference Dataset",
-  "description": "This dataset comprises magnetoencephalography (MEG), structural magnetic resonance imaging (sMRI), and behavioral data from 30 healthy young adults performing a picture-word interference task. Participants identified object images and judged whether the object name ended in a target sound while hearing distractor words that were phonologically related, semantically related, or unrelated to the pictures. The dataset includes three task runs per participant with 120 trials each (40 phonologically related, 40 semantically related, and 40 unrelated trials per run), along with reaction time, accuracy, and MEG recordings epoched to picture and response onsets for event-related analysis.",
-  "methods_description": "MEG data were acquired using a CTF system at the Rotman Research Institute, Baycrest Hospital, Toronto. Participants performed a picture-word interference task across 3 runs of 120 trials each, with equal representation of phonologically related, semantically related, and unrelated picture-word conditions. Behavioral responses (reaction time and accuracy) were recorded via button press. Structural MRI was acquired for each participant to enable MEG source localization. MEG data were epoched relative to picture onset and response onset for event-related analyses.",
+  "description": "This dataset comprises MEG (CTF), structural MRI, and behavioural data from 30 healthy young adults performing a picture-word interference (PWI) task, collected at the Rotman Research Institute, Baycrest Hospital, Toronto, Canada. Participants covertly named pictures while ignoring auditory distractor words that were phonologically related, semantically related, or unrelated to the picture name, judging whether the retrieved name ended in a target sound. The dataset supports research into lexical access and language production processes using MEG source localization informed by individual structural MRIs.",
+  "methods_description": "Each subject completed 3 runs of the picture-word interference task, with 120 trials per run balanced across picture-word conditions (phonologically related, semantically related, unrelated). Behavioural reaction time and accuracy were recorded. MEG data (CTF system) were epoched to picture onset and response onset for event-related analyses, and each subject underwent structural MRI acquisition for MEG source localization.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,37 +15,32 @@
   },
   "keywords": [
     {
+      "term": "MEG"
+    },
+    {
       "term": "Magnetoencephalography",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
     },
     {
-      "term": "MEG"
-    },
-    {
       "term": "picture-word interference"
     },
     {
-      "term": "semantic processing"
+      "term": "language production"
     },
     {
-      "term": "phonological processing"
+      "term": "lexical access"
     },
     {
-      "term": "event-related fields"
+      "term": "structural MRI"
     },
     {
-      "term": "source localization"
+      "term": "behavioural task"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005279",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005279",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -58,6 +53,11 @@
       "identifier": "10.18112/openneuro.ds005279.v1.0.3",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005279",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
