@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Picture-Word Interference Dataset",
-  "description": "This dataset comprises MEG (CTF), structural MRI, and behavioural data from 30 healthy young adults performing a picture-word interference (PWI) task, collected at the Rotman Research Institute, Baycrest Hospital, Toronto, Canada. Participants covertly named pictures while ignoring auditory distractor words that were phonologically related, semantically related, or unrelated to the picture name, judging whether the retrieved name ended in a target sound. The dataset supports research into lexical access and language production processes using MEG source localization informed by individual structural MRIs.",
-  "methods_description": "Each subject completed 3 runs of the picture-word interference task, with 120 trials per run balanced across picture-word conditions (phonologically related, semantically related, unrelated). Behavioural reaction time and accuracy were recorded. MEG data (CTF system) were epoched to picture onset and response onset for event-related analyses, and each subject underwent structural MRI acquisition for MEG source localization.",
+  "description": "This dataset contains magnetoencephalography (CTF MEG), structural MRI, and behavioural data from 30 healthy young adults performing a picture-word interference task. Participants covertly retrieved picture names and judged whether each name ended in a target sound while hearing distractor words that were phonologically related, semantically related, or unrelated to the picture. The data support event-related analyses time-locked to picture and response onset, as well as source localization using individual anatomical MRIs.",
+  "methods_description": "Data were collected at the Rotman Research Institute, Baycrest Hospital, Toronto. Each participant completed 3 runs of 120 trials, with equal numbers of trials per picture-word condition. They responded yes or no with right-hand button presses, and reaction time and accuracy were recorded. MEG was recorded with a CTF system and epoched to picture onset and response onset. Each participant also had a structural MRI for source localization.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,24 +18,19 @@
       "term": "MEG"
     },
     {
-      "term": "Magnetoencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
-    },
-    {
       "term": "picture-word interference"
     },
     {
       "term": "language production"
     },
     {
-      "term": "lexical access"
+      "term": "semantic interference"
+    },
+    {
+      "term": "phonological processing"
     },
     {
       "term": "structural MRI"
-    },
-    {
-      "term": "behavioural task"
     }
   ],
   "related_identifiers": [
@@ -63,7 +58,8 @@
   "funding_references": [
     {
       "funder_name": "NSERC",
-      "award_number": "RGPIN-2019-06515"
+      "award_number": "RGPIN-2019-06515",
+      "award_title": "Discovery Grant"
     }
   ],
   "resource_type_specific": "Structural MRI Dataset",
@@ -73,7 +69,7 @@
     "meg"
   ],
   "sizes": [
-    "60.5 GB (1249 files)"
+    "56.37 GB (1219 files)"
   ],
   "formats": [
     ".acq",
